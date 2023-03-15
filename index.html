@@ -16,32 +16,32 @@
   </head>
   <body class="bg-black text-white">
     <header
-      class="fixed flex h-28 w-full items-center justify-between bg-black px-20"
+      class="fixed flex h-28 w-full items-center justify-between bg-black px-3 lg:px-12"
     >
-      <div class="flex space-x-2">
+      <div class="flex max-w-lg space-x-2">
         <img src="./public/logo.svg" alt="ChainHub" />
         <div>
-          <span class="text-4xl">
-            <span class="font-bold">Chain</span
-            ><span class="font-thin">Hub</span>
+          <span class="text-xl -tracking-wider md:text-3xl">
+            <span class="font-bold">Chain</span>
+            <span class="font-thin">Hub</span>
           </span>
-          <div class="text-yellow-500">THE WEB3 INCUBATOR FOUNDATION</div>
+          <span
+            class="absolute block max-w-sm text-[8px] tracking-[0.2em] text-yellow-500"
+          >
+            <span>THE WEB3 INCUBATOR </span>
+            <span class="block md:inline">FOUNDATION</span>
+          </span>
         </div>
       </div>
-      <div class="hidden space-x-4 font-bold tracking-wider md:flex">
-        <a class="">ABOUT</a>
-        <a class="">PARTNERSHIPS</a>
-        <a class="">RESEARCH</a>
-      </div>
-      <a class="border border-yellow-400 py-3 px-12 font-bold text-yellow-400">
+      <a
+        class="inline cursor-pointer rounded-md border border-[#FFC000] py-2 px-2 text-xs font-extrabold text-[#FFC000] md:px-8 md:text-base"
+        href="https://form.jotform.com/230568123902048"
+      >
         APPLY NOW
       </a>
     </header>
     <!-- Hack -->
-    <div
-      id="home"
-      class="h-28 items-center bg-[FFB800] p-3 text-xs sm:flex sm:p-9 sm:text-base"
-    ></div>
+    <div class="h-28"></div>
     <div
       id="home"
       class="h-16 items-center bg-black p-3 text-xs sm:flex sm:p-9 sm:text-base"
@@ -69,7 +69,9 @@
 
     <section class="mx-auto max-w-5xl">
       <div class="flex">
-        <p class="font-medium text-5xl">Where Web3 & academia build, pitch, and grow.</p>
+        <p class="text-5xl font-medium">
+          Where Web3 & academia build, pitch, and grow.
+        </p>
         <div class="border border-yellow-400"></div>
         <div>
           <div>
@@ -101,35 +103,56 @@
     </section>
     <section class="text-center">
       <p class="text-3xl">Partners</p>
-      <p class="max-w-3xl mx-auto text-3xl text-gray-300">As a ChainHub Foundation partner Hub, you gain access to our domain expertise helping you navigate the challenges of building in Web3</p>
+      <p class="mx-auto max-w-3xl text-3xl text-gray-300">
+        As a ChainHub Foundation partner Hub, you gain access to our domain
+        expertise helping you navigate the challenges of building in Web3
+      </p>
 
-      <div class="flex space-x-8 p-9 justify-center">
-        <div class="relative bg-white h-96 w-48">
-          <div class="absolute left-4 bottom-9 bg-black border-white border h-96 w-48 flex flex-col justify-center">
+      <div class="flex justify-center space-x-8 p-9">
+        <div class="relative h-96 w-48 bg-white">
+          <div
+            class="absolute left-4 bottom-9 flex h-96 w-48 flex-col justify-center border border-white bg-black"
+          >
             <p>Title Of Resource</p>
           </div>
-          <div class="flex flex-col h-full pb-2">
+          <div class="flex h-full flex-col pb-2">
             <div class="flex-grow"></div>
             <p class="text-black">LEARN MORE</p>
           </div>
         </div>
-        <div class="relative bg-white h-96 w-48">
-          <div class="absolute left-4 bottom-9 bg-black border-white border h-96 w-48 flex flex-col justify-center">
+        <div class="relative h-96 w-48 bg-white">
+          <div
+            class="absolute left-4 bottom-9 flex h-96 w-48 flex-col justify-center border border-white bg-black"
+          >
             <p>Title Of Resource</p>
           </div>
-          <div class="flex flex-col h-full pb-2">
+          <div class="flex h-full flex-col pb-2">
             <div class="flex-grow"></div>
             <p class="text-black">LEARN MORE</p>
           </div>
         </div>
-        <div class="relative bg-white h-96 w-48">
-          <div class="absolute left-4 bottom-9 bg-black border-white border h-96 w-48 flex flex-col justify-center">
+        <div class="relative h-96 w-48 bg-white">
+          <div
+            class="absolute left-4 bottom-9 flex h-96 w-48 flex-col justify-center border border-white bg-black"
+          >
             <p>Title Of Resource</p>
           </div>
-          <div class="flex flex-col h-full pb-2">
+          <div class="flex h-full flex-col pb-2">
             <div class="flex-grow"></div>
             <p class="text-black">LEARN MORE</p>
           </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p></p>
+      <div class="flex">
+        <div class="w-40 flex flex-col items-center">
+          <div class="w-40 h-50 border">
+            <img class="h-48 w-60"src="" alt="">
+            <p>Learn More</p>
+          </div>
+          <p>This is a paragraph with more information about something important.</p>
         </div>
       </div>
     </section>
